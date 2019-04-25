@@ -117,7 +117,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 932503720219523948}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.234, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 932503719320653625}
@@ -133,12 +133,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 932503720219523948}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed7d7f9fe8d5b754a9b6aebe2b6673f0, type: 3}
+  m_Script: {fileID: 11500000, guid: a2688aa22b4eaa84ca80700395875ded, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxEnemies: 5
+  maxEnemies: 4
   spawnDelay: 5
-  player: {fileID: 0}
-  enemyPrefab: {fileID: 5708897791437077123, guid: 24381feb3e62f1b44a6bf02ee5ca2f2d,
+  player: {fileID: 1652633833451061691, guid: edf67c4c950bae744a5603eb2ad62490, type: 3}
+  enemyPrefab: {fileID: 2330751830336153129, guid: 10c65b6c708184b0982592d999bedfc6,
     type: 3}
   spawnPointsParent: {fileID: 932503719320653606}

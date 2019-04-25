@@ -18,6 +18,11 @@ public class PlayerController : MonoBehaviour
     private Rigidbody rb;
     private int count;
 
+    void Update()
+    {
+        this.transform.localScale = new Vector3(Health, Health, Health);
+    }
+
     // At the start of the game..
     void Start()
     {
@@ -63,9 +68,7 @@ public class PlayerController : MonoBehaviour
 
 
 
-            Vector3 currentScale = this.transform.localScale;
-            this.transform.localScale = new Vector3(currentScale.x + 0.5f, currentScale.y + 0.5f, currentScale.z + 0.5f);
-
+            
             Vector3 currentPosition = this.transform.position;
             this.transform.position = new Vector3(currentPosition.x, currentPosition.y + 0.25f, currentPosition.z);
 
