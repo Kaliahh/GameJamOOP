@@ -33,7 +33,7 @@ public class Damage : MonoBehaviour
 
     private void Hit(GameObject gameObject)
     {
-        gameObject.GetComponent<Player>().health -= DamageOnPlayer;
+        gameObject.GetComponent<PlayerController>().Health -= DamageOnPlayer;
         CurrentCooldown = DamageCoolDown;
 
     } 
