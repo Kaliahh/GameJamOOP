@@ -10,18 +10,17 @@ public class EnemyMovement : MonoBehaviour
     public GameObject Player;
 
     private Rigidbody rigidbody;
-
-    //Replace with reference to actual value
-    private float currentCooldown = 0.0f;
+    private Damage damageScript;
 
     public void Start()
     {
         rigidbody = GetComponent<Rigidbody>();
+        damageScript = GetComponent<Damage>();
     }
 
     public void Update()
     {
-        if (currentCooldown == 0.0f)
+        if (damageScript.currentCooldown == 0.0f)
         {
             TurnTowardsPlayer();
             MoveForwards();
