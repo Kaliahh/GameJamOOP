@@ -58,12 +58,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2330751830336153129}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d9e1a9b70e006149b780104e3ad5103, type: 3}
+  m_Script: {fileID: 11500000, guid: 7cfa7d1236b53784580cfa34235d3fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 10
-  turnSpeed: 10
-  Player: {fileID: 0}
+  movementSpeed: 5
+  turnSpeed: 4
+  Player: {fileID: 1652633833451061691, guid: edf67c4c950bae744a5603eb2ad62490, type: 3}
 --- !u!1 &2330751830376234998
 GameObject:
   m_ObjectHideFlags: 0
@@ -185,7 +185,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 1.5, z: 1.5}
+  m_Size: {x: 2, y: 2, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2330751830704575340
 MonoBehaviour:
@@ -196,10 +196,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2330751830704575350}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9d2bf1f3e0555749ac76d9b91124365, type: 3}
+  m_Script: {fileID: 11500000, guid: 7a7564d369c585248825c04a786e6dba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  DamageCoolDown: 5
+  player: {fileID: 1652633833451061691, guid: edf67c4c950bae744a5603eb2ad62490, type: 3}
+  DamageCoolDown: 2
   CurrentCooldown: 0
-  DamageOnPlayer: 5
+  DamageOnPlayer: 1
